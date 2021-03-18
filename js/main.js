@@ -63,9 +63,6 @@ toTopEl.addEventListener('click',function () {
     });
 })
 
-
-
-
 const fadeEls = document.querySelectorAll('.visual .fade-in');
 fadeEls.forEach(function (fadeEl, index) {
      // gsap.to(요소, 지속시간(초단위), 옵션);
